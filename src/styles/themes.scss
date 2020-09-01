@@ -1,10 +1,8 @@
 .container {
     width: 100%;
     height: 50vh;
-    background-color: yellowgreen;
+    // background-color: yellowgreen;
     display: flex;
-
-
 
     .row-item {
         width: 33.3%;
@@ -19,6 +17,35 @@
             display: block;
             padding-top: 15px;
             padding-left: 40px;
+            z-index: 2;
+
+        }
+
+        .image {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: absolute;
+
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                z-index: 1;
+                opacity: .54;
+                cursor: pointer;
+                transition: all .4s;
+
+                &:hover {
+                    opacity: .4;
+                }
+
+
+            }
         }
     }
+
 }

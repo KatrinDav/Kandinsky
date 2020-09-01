@@ -37,7 +37,7 @@ const homeAnimation = () => {
                 display: 'none'
             }
         })
-        .from('.case-image img', 1.6, {
+        .from('.image img', 1.6, {
             scale: 1.4,
             ease: 'expo.inOut',
             delay: -.2,
@@ -47,11 +47,7 @@ const homeAnimation = () => {
             // onComplete: completeAnimation
 
         })
-        .to('body', 0, {
-            css: {
-                visibility: 'visible',
-            }
-        })
+
 }
 
 const Home = () => {
