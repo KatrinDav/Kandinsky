@@ -6,9 +6,13 @@ import IntroOverlay from '../components/IntroOverlay';
 
 const tl = gsap.timeline();
 const homeAnimation = () => {
-    tl.to('body', 0, {
+    tl.from('body', 0, {
         css: {
-            visibility: 'visible',
+            visibility: 'hidden',
+        }
+    }).to('body', 0, {
+        css: {
+            visibility: 'visible'
         }
     })
         .from(".line span", 1.8, {

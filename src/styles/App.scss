@@ -4,6 +4,8 @@
 @import "./header.scss";
 @import "./themes.scss";
 @import "./overlay.scss";
+@import "./title.scss";
+@import "./description.scss";
 
 * {
     margin: 0;
@@ -13,7 +15,7 @@
 
 body,
 html {
-    // visibility: hidden;
+    visibility: hidden;
     user-select: none;
     overscroll-behavior: none;
     font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -22,4 +24,14 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-bio {
+    visibility: visible;
 }
