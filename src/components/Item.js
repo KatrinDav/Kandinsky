@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Item = ({ src, title }) => {
+const Item = ({ item, src, title, openModal }) => {
     return (
-        <div className="art-item">
+        <div className="item_art" onClick={() => openModal(item)} >
             <img src={src} alt='art' />
             <div className="overlay">{title}</div>
         </div>
