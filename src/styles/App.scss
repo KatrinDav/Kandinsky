@@ -6,6 +6,9 @@
 @import "./overlay.scss";
 @import "./title.scss";
 @import "./description.scss";
+@import "./arts.scss";
+@import "./item.scss";
+@import "./modal.scss";
 
 * {
     margin: 0;
@@ -29,7 +32,7 @@ html {
 .wrapper {
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+
 }
 
 .main-bio {

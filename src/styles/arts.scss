@@ -1,0 +1,27 @@
+.wrapper_arts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 96%;
+    margin: 50px auto;
+}
+
+@media(max-width: 856px) {
+    .wrapper_arts {
+        width: 85%;
+    }
+}
+
+@media(max-width: 625px) {
+    .wrapper_arts {
+        width: 90%;
+    }
+}
+
+@media(max-width: 506px) {
+    .wrapper_arts {
+        width: 95%;
+    }
+}
