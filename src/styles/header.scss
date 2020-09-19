@@ -3,18 +3,14 @@
     height: 50vh;
     background: $white;
 
-
-
     h1 {
         font-size: 3.9rem;
         padding-top: 40px;
         margin-left: 80px;
-
     }
 
     .row {
         padding-top: 50px;
-
 
         h2 {
             font-size: 2.8rem;
@@ -36,11 +32,8 @@
                 span {
                     position: absolute;
                     z-index: 10;
-
                 }
             }
-
-
         }
 
         h3 {
@@ -52,6 +45,62 @@
         }
     }
 
+}
 
+@media (max-width: 1162px) {
+    .main {
+        h1 {
+            margin-left: 40px;
+        }
 
+        .row {
+            h2 {
+                margin-left: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 937px) {
+    .main {
+        h1 {
+            font-size: 3.2rem;
+        }
+
+        .row {
+            h2 {
+                font-size: 2.2rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 561px) {
+    .main {
+        h1 {
+            font-size: 2.6rem;
+        }
+
+        .row {
+            h2 {
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 397px) {
+    .main {
+        h1 {
+            font-size: 2.4rem;
+            margin-left: 15px;
+        }
+
+        .row {
+            h2 {
+                font-size: 1.4rem;
+                margin-left: 15px;
+            }
+        }
+    }
 }

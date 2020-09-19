@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import Header from '../components/Header';
 import Themes from '../components/Themes';
@@ -6,24 +6,19 @@ import IntroOverlay from '../components/IntroOverlay';
 
 const tl = gsap.timeline();
 const homeAnimation = () => {
-    tl.from('body', 0, {
+    tl.set('body', {
         css: {
-            visibility: 'hidden',
+            visibility: 'visible',
         }
-    }).to('body', 0, {
-        css: {
-            visibility: 'visible'
+    }).from(".line span", 1.8, {
+        y: 100,
+        ease: 'power4.out',
+        delay: 1,
+        skewY: 7,
+        stagger: {
+            amount: 0.3
         }
     })
-        .from(".line span", 1.8, {
-            y: 100,
-            ease: 'power4.out',
-            delay: 1,
-            skewY: 7,
-            stagger: {
-                amount: 0.3
-            }
-        })
         .to(".overlay-top", 1.6, {
             height: 0,
             ease: "expo.inOut",

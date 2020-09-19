@@ -54,3 +54,39 @@
         }
     }
 }
+
+@media(max-width: 737px) {
+    .intro-overlay {
+        .top {
+            .overlay-top {
+                width: 100vw;
+
+                &:nth-child(2) {
+                    display: none;
+                }
+
+                &:nth-child(3) {
+                    display: none;
+                }
+            }
+        }
+
+        .bottom {
+            .overlay-bottom {
+                width: 100vw;
+                right: 0;
+
+                &:nth-child(2) {
+                    width: 100vw;
+                    top: 100%;
+                    right: 0;
+                }
+
+                &:nth-child(3) {
+                    width: 100vw;
+                    top: 200%;
+                }
+            }
+        }
+    }
+}

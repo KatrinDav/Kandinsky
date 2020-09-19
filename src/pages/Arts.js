@@ -48,8 +48,6 @@ const Arts = () => {
     const openModal = (item) => {
         setModal(true);
         setModalData(item)
-        console.log('modal otwarty')
-        console.log(item.title)
     }
 
     const closeModal = () => {
