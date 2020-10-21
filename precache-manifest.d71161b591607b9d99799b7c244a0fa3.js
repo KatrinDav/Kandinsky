@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6bdb252467de8b74f6246a6085e29e1e",
+    "revision": "a5a0280982e54b2563709bb192e51896",
     "url": "/kandinsky/index.html"
   },
   {
-    "revision": "a2ba23c79a8aa1127198",
-    "url": "/kandinsky/static/css/main.fdf3bcb6.chunk.css"
+    "revision": "26346c8d43b143c5eb53",
+    "url": "/kandinsky/static/css/main.d49ae421.chunk.css"
   },
   {
     "revision": "183109899416d0de231b",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kandinsky/static/js/2.2c0b8102.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a2ba23c79a8aa1127198",
+    "revision": "26346c8d43b143c5eb53",
     "url": "/kandinsky/static/js/main.da143c37.chunk.js"
   },
   {
